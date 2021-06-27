@@ -1,0 +1,45 @@
+$background-color: #101010;
+
+.post-container{
+    width: 100%;
+    background-color: $background-color;
+}
+
+.post-container header{
+    width: 100%;
+    text-align: center;
+}
+
+.post-container .post-body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.post-container .post-body .img-profile{
+    margin: 12px 12px;
+}
+
+.post-container .post-body .img-profile img{
+    width: 40px;
+    height: 40px;
+}
+
+.post-container .post-body .content{
+    margin: 12px 12px;
+}
+
+.post-container .post-body .content h1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
+
+.post-container .post-body .content h1 span{
+    color: #808080;
+}
+
+.post-container .post-body .content p{
+    color: #FFFFFF;
+}

@@ -20,4 +20,4 @@ const routes: Routes = [
     exports: [RouterModule]
 })
 
-export class HomePagesRouting { };
+export class InitialPagesRouting { };
